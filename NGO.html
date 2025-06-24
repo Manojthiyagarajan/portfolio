@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helping Hands - NGO Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #004d40;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: linear-gradient(to right, #a7ffeb, #64ffda);
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #004d40;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .btn {
+      margin-top: 2rem;
+      background-color: #004d40;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .btn:hover {
+      background-color: #00332c;
+    }
+    .mission, .impact {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #004d40;
+    }
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .impact-card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .impact-card h3 {
+      margin-bottom: 1rem;
+      color: #00796b;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #004d40;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #a7ffeb;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Helping Hands</h1>
+    <nav>
+      <a href="#mission">Our Mission</a>
+      <a href="#impact">Impact</a>
+      <a href="#donate">Donate</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Communities, Changing Lives</h2>
+    <p>Helping Hands is a non-profit organization dedicated to creating sustainable development and education opportunities for underprivileged communities.</p>
+    <a href="#donate" class="btn">Donate Now</a>
+  </section>
+
+  <section class="mission" id="mission">
+    <h2 class="section-title">Our Mission</h2>
+    <p>We work to uplift the underprivileged by providing access to basic education, healthcare, and community development programs. Our projects focus on empowering women and children through inclusive participation and grassroots partnerships.</p>
+  </section>
+
+  <section class="impact" id="impact">
+    <h2 class="section-title">Our Impact</h2>
+    <div class="impact-grid">
+      <div class="impact-card">
+        <h3>5000+ Children Educated</h3>
+        <p>Our education initiatives have reached thousands of students across rural areas.</p>
+      </div>
+      <div class="impact-card">
+        <h3>300+ Women Empowered</h3>
+        <p>Skill training and employment programs have helped women become financially independent.</p>
+      </div>
+      <div class="impact-card">
+        <h3>50+ Villages Transformed</h3>
+        <p>We partner with communities to create lasting change through health and infrastructure projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="donate">
+    <p>&copy; 2025 Helping Hands NGO | Designed for accessibility and impact</p>
+    <p>Email us at <a href="mailto:contact@helpinghands.org">manojthiyagarajan10@gmail.com</a></p>
+  </footer>
+</body>
+</html>
